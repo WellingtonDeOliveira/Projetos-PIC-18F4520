@@ -1,0 +1,3 @@
+Warning[2068] C:\Users\55859\Documents\ACEProteus\Lista 3\Questao 1\relogio.c 300 : obsolete use of implicit 'int' detected
+Warning[2103] C:\Users\55859\Documents\ACEProteus\Lista 3\Questao 1\relogio.c 300 : default startup code expects main function declared as 'void main (void)'
+Warning[2058] C:\Users\55859\Documents\ACEProteus\Lista 3\Questao 1\relogio.c 310 : call of function without prototype

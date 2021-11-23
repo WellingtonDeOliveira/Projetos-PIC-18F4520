@@ -1,0 +1,2 @@
+Warning[2068] C:\Users\55859\Documents\ACEProteus\Display8x8\display.c 129 : obsolete use of implicit 'int' detected
+Warning[2103] C:\Users\55859\Documents\ACEProteus\Display8x8\display.c 129 : default startup code expects main function declared as 'void main (void)'

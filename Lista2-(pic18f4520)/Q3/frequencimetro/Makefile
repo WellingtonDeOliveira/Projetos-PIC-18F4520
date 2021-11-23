@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: frequencimetro.mcp
+# Date: Tue Oct 05 16:05:22 2021
+
+AS = MPASMWIN.exe
+CC = mcc18.exe
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+frequencimetro.cof : frequencimetro.o
+	$(LD) /p18F4520 /l"C:\Program Files (x86)\Microchip\mplabc18\v3.47\lib" "frequencimetro.o" /u_CRUNTIME /u_DEBUG /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /o"frequencimetro.cof" /M"frequencimetro.map" /W
+
+frequencimetro.o : frequencimetro.c ../../../../../Program\ Files\ (x86)/Microchip/mplabc18/v3.47/h/p18f4520.h
+	$(CC) -p=18F4520 "frequencimetro.c" -fo="frequencimetro.o" -D__DEBUG -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+
+clean : 
+	$(RM) "frequencimetro.o" "frequencimetro.cof" "frequencimetro.hex"
+
